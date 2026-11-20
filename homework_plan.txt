@@ -1,0 +1,31 @@
+DEALING WITH INPUTS
+asking for inputs and saving as an object to access later
+casting inputs as types other than strings
+checking if an input matches certain criteria
+    - checking using conditionals or while loops
+    - asking to repeat the input question if it does not match said criteria: while  
+    loop or calling a function again
+    - modifying the input to match the criteria: ex. lower() or upper()
+doing something with the input using a formatted string or multi-part print statements
+
+
+you will write code to receive inputs for a mad-lib style word game. I've written the 
+mad-lib frame for you, and told you what you'll have to ask the input for.
+Make the mad-lib in a separate file and then read into it to prevent the madlib from
+being spoiled.
+
+
+
+I will finish the homework before starting the in class activity.
+I will be done with the homework by November 27 at the latest. 
+If I think my ambitions are too lofty, I will reduce the scope of the homework assignm-
+ent before altering the activity.
+
+student will be able to ask for, cast, and save inputs;
+student will be able to check if an input matches certain criteria
+
+
+specific challenges I'll ask for:
+    - get an adverb and only accept it if it ends in "-ly"
+    - get a proper noun and save it with the first letter capitalized
+    - get two adjectives that will be used non-consecutively with one input
