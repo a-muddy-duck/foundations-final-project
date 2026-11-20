@@ -1,0 +1,21 @@
+LISTS, TUPLES, SETS, AND DICTIONARIES
+for each, try:
+- adding duplicate values
+- determining if it is ordered or not
+- attempting to change an item after creation
+- using indices to find a particular value
+then, make a table where they fill in values to say for each collection type, if it is
+ordered or not, changeable or not, indexed or not, and if it allows duplicates or not.
+
+ask about each collection type and attribute, then save their answers; at the end, 
+print a table with each type, attribute, and their answer.
+ex.
+| Collection type | Allows duplicates? | Mutable? | Ordered? | Indexed? |
+| --------------- | ------------------ | -------- | -------- | -------- |
+| List            |                    |          |          |          |
+| Tuple           |                    |          |          |          |
+| Set             |                    |          |          |          |
+| Dictionary      |                    |          |          |          |
+catch exceptions using `except`
+
+students will better understand the differences between collection types and when each is useful; specifically, differentiating which are ordered and accessible by indices and which can hold duplicate values.
