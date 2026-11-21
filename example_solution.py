@@ -33,34 +33,33 @@ def fill_in_blanks():
 
 def get_adverb():
     adverb = input("Give me an adverb: ").lower()
-    if adverb.endswith("ly"):
-        pass
-    else:
+    while not adverb.endswith("ly"):
         print("Make sure your adverb ends in -ly.")
-        get_adverb()
-    return adverb.title()
+        adverb = input("Give me an adverb: ").lower()
+    else:
+        return adverb.title()
 
 def get_move_verb():
     mystery_number = int(input("Give me a number between 1 and 4: "))
+    while mystery_number != 1 and mystery_number != 2 and mystery_number != 3 and mystery_number != 4:
+        print("Read the instructions again and only come back once you've thought about the consequences of your actions.")
+        mystery_number = int(input("Give me a number between 1 and 4: "))
     if mystery_number == 1:
         return "meander"
-    elif mystery_number == 2:
+    if mystery_number == 2:
         return "boogie"
-    elif mystery_number == 3:
+    if mystery_number == 3:
         return "cartwheel"
-    elif mystery_number == 4:
+    if mystery_number == 4:
         return "prance"
-    else:
-        print("Read the instructions again and only come back once you've thought about the consequences of your actions.")
-        get_move_verb()
     
 def get_plural_noun():
     plural_noun = input("Give me a plural noun: ").lower()
+    while not plural_noun.endswith("s"):
+        print("Try something more conventional? We love being fungis around here but fun guys are better (in a plural sense).")
+        plural_noun = input("Give me a plural noun: ").lower()
     if (plural_noun.endswith("s")):
         return plural_noun
-    else:
-        print("Try something more conventional? We love being fungis around here but fun guys are better (in a plural sense).")
-        get_plural_noun()
         
 def get_cap_input(prompt):
     return input(prompt).title()
@@ -68,6 +67,6 @@ def get_cap_input(prompt):
 def main():
     madlib = import_madlib_skeleton()
     filled_blanks_dict = fill_in_blanks()
-    print(madlib.format_map(filled_blanks_dict)) #format_map wants a dictionary
+    print(madlib.format_map(filled_blanks_dict))
 if __name__ == "__main__":
     main()
