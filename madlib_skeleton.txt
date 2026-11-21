@@ -1,6 +1,5 @@
 A day in the life of my CSC110 professor, {profname}
 
-
 First, {profname} wakes up and makes a {temperature_adj} cup of {bev_noun}. 
 After getting to work, they {move_verb} to {smith_building_name}. 
 They turn on their i{tech_noun} but right away it looks like it is {tech_adj}. 

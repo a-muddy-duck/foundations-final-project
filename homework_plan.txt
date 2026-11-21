@@ -28,4 +28,4 @@ student will be able to check if an input matches certain criteria
 specific challenges I'll ask for:
     - get an adverb and only accept it if it ends in "-ly"
     - get a proper noun and save it with the first letter capitalized
-    - get two adjectives that will be used non-consecutively with one input
+    - get three adjectives that will be used non-consecutively with one input

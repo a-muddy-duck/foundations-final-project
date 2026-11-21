@@ -6,7 +6,7 @@ def import_madlib_skeleton():
     return madlib
 def lazy_skip():
     profname = "Jordan"
-    temperature_adj = "flat"
+    temperature_adj = "blue"
     tech_adj = "steampunk"
     student_adj = "brilliant"
     bev_noun = "cocoa"
@@ -32,7 +32,7 @@ def lazy_skip():
 def main():
     madlib = import_madlib_skeleton()
     profname = "Jordan"
-    temperature_adj = "flat"
+    temperature_adj = "blue"
     tech_adj = "steampunk"
     student_adj = "brilliant"
     bev_noun = "cocoa"

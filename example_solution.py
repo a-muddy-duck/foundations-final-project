@@ -7,6 +7,7 @@ def import_madlib_skeleton():
 def fill_in_blanks():
     profname = get_cap_input("Give me the name of your CSC110 professor: ")
     if profname == "Skip":
+        # this is for when I'm lazy and don't want to fill in all the blanks myself
         from example_solution_autoinput import lazy_skip
         skipvals = lazy_skip()
         return skipvals
@@ -28,9 +29,8 @@ def fill_in_blanks():
                      "verb_sequence" : verb_sequence, "adverb" : adverb, "int_students" : int_students,
                      "plural_noun" : plural_noun}
     return(filled_blanks_dict)
-    #return(profname, temperature_adj, tech_adj, student_adj, bev_noun, move_verb, smith_building_name,
-    #      tech_noun, onomatopoeia, superlative, verb_sequence, adverb, int_students, plural_noun)
-    
+
+
 def get_adverb():
     adverb = input("Give me an adverb: ").lower()
     if adverb.endswith("ly"):
@@ -68,8 +68,6 @@ def get_cap_input(prompt):
 def main():
     madlib = import_madlib_skeleton()
     filled_blanks_dict = fill_in_blanks()
-#     print(type(filled_blanks_dict))
-#     print(filled_blanks_dict)
     print(madlib.format_map(filled_blanks_dict)) #format_map wants a dictionary
 if __name__ == "__main__":
     main()
