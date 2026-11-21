@@ -11,15 +11,15 @@ doing something with the input using a formatted string or multi-part print stat
 
 you will write code to receive inputs for a mad-lib style word game. I've written the 
 mad-lib frame for you, and told you what you'll have to ask the input for.
-Make the mad-lib in a separate file and then read into it to prevent the madlib from
-being spoiled.
+I have made the mad-lib in a separate file and then read into it to prevent the 
+madlib from being spoiled.
 
 
 
 I will finish the homework before starting the in class activity.
 I will be done with the homework by November 27 at the latest. 
-If I think my ambitions are too lofty, I will reduce the scope of the homework assignm-
-ent before altering the activity.
+If I think my ambitions are too lofty, I will reduce the scope of the homework 
+assignment before altering the activity.
 
 student will be able to ask for, cast, and save inputs;
 student will be able to check if an input matches certain criteria
